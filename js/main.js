@@ -15,7 +15,8 @@ $(document).ready(function () {
             "<i class='fa fa-angle-right'></i>"
           ],
         autoplay: true,
-        autoplayHoverPause: true,
+        slideSpeed: 300,
+        utoplayTimeout: 2000,
         responsive: {
             0: {
                 items: 1,

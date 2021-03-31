@@ -436,6 +436,23 @@ button {
     padding-left: 0px;
 }
 
+.leftBoxWrapper,
+.rightBoxWrapper,
+.box .img {
+    overflow: hidden;
+}
+
+.img img {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.leftBoxWrapper:hover .img img,
+.rightBoxWrapper .box:hover .img img {
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+
 /*** newsWrapper ***/
 
 /*** copyright ***/
