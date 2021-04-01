@@ -117,6 +117,10 @@ button {
 
 .navbar-form-search {
     position: relative;
+    top: 0;
+    position: fixed;
+    right: 0;
+    z-index: 999;
 }
 
 .navbar-form-search .form-control {

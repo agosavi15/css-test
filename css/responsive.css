@@ -2,9 +2,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-    /* Styles */
-}
+
 
 @media only screen and (max-width : 767px) {
 
@@ -80,6 +78,7 @@
         color: #fff;
     }
 
+    /*
     .navbar-form .form-group {
         width: 100%;
         padding: 0px;
@@ -114,8 +113,40 @@
     .navbar-form .btn {
         border-radius: 0px;
     }
+*/
 
     /* header */
+
+    /** .navbar-form ***/
+
+    .navbar-form {
+        position: fixed;
+        top: 20px;
+        right: 40px;
+    }
+
+    .navbar-form-search .search-form-container .search-input-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 200px;
+    }
+
+    .navbar-form-search .search-form-container,
+    .navbar-form-search .form-control {
+        width: 200px;
+    }
+
+    .navbar-form-search .btn {
+        background-color: transparent;
+        font-size: 16px;
+    }
+
+    .glyphicon {
+        color: #000;
+    }
+
+    /** .navbar-form ***/
 
     /* bannerSection */
 
@@ -126,7 +157,7 @@
     .bannertextContent {
         width: 100%;
         left: 0;
-        bottom: -25px;
+        bottom: -24px;
         padding: 35px 31px 27px 15px;
     }
 
@@ -273,6 +304,18 @@
 
 }
 
+@media only screen and (max-width : 320px) {
+
+    /* Styles */
+    .bannertextContent h3 {
+        font-size: 13px;
+    }
+
+    .bannertextContent a {
+        font-size: 12px;
+    }
+}
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
@@ -367,6 +410,7 @@
         padding: 20px 10px;
     }
 
+    /*
     .navbar-form {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -414,6 +458,38 @@
         display: -ms-flexbox;
         display: flex;
     }
+*/
+
+    /** .navbar-form ***/
+
+    .navbar-form {
+        position: fixed;
+        top: -9px;
+        right: 50px;
+    }
+
+    .navbar-form-search .search-form-container .search-input-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 200px;
+    }
+
+    .navbar-form-search .search-form-container,
+    .navbar-form-search .form-control {
+        width: 200px;
+    }
+
+    .navbar-form-search .btn {
+        background-color: transparent;
+        font-size: 16px;
+    }
+
+    .glyphicon {
+        color: #000;
+    }
+
+    /** .navbar-form ***/
 
     .leftBoxWrapper .contentWrapper {
         -webkit-box-align: center;
