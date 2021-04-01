@@ -120,7 +120,7 @@
     /** .navbar-form ***/
 
     .navbar-form {
-        position: fixed;
+        position: absolute;
         top: 20px;
         right: 40px;
     }
@@ -463,7 +463,7 @@
     /** .navbar-form ***/
 
     .navbar-form {
-        position: fixed;
+        position: absolute;
         top: -9px;
         right: 50px;
     }
